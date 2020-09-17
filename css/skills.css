@@ -67,11 +67,7 @@
 }
 .skills__img{
   border-radius: .5rem;
-  width: 400px;
-  height: 400px;
-  margin-left: 150px;
 }
-
 
 @media screen and (min-width: 768px){
 
@@ -82,3 +78,26 @@
   }
 }
 
+@media screen and (min-width: 1280px){
+  .skills__img{
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skills__img{
+    width: 350px;
+    height: 350px;
+    margin-left: 80px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .skills__img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+}

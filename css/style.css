@@ -37,6 +37,13 @@
 .links{
   text-align: right;
 }
+
+@media screen and (max-width: 1024px){
+  .links{
+    text-align: left;
+  }
+}
+
 .address{
   color: #FFF;
   font-weight: 400;
@@ -50,6 +57,12 @@
   background-image: url(../img/ilstrator/3.png);
   background-repeat: no-repeat;
   
+}
+
+@media screen and (min-width: 767px) {
+  .skills-img{
+    margin-left: 150px;
+  }
 }
 
 
@@ -2265,6 +2278,8 @@ h3 {
   .footer .pro_border .lets_projects h3 {
     color: #fff;
     font-size: 19px;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -2531,6 +2546,7 @@ h3 {
   /* line 204, ../../Arafath/CL/CL October/219. SEO/HTML/scss/_footer.scss */
   .footer .socail_links {
     margin-top: 30px;
+    margin-left: 50px;
   }
 }
 
